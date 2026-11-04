@@ -1,0 +1,22 @@
+#!/usr/bin/env Rscript
+suppressPackageStartupMessages(library(survey))
+options(survey.lonely.psu='adjust')
+d<-read.csv('alcohol_four_level_20261102/analysis_input.csv')
+s<-read.csv('hpv_sex_covariates_audit_20261102/model_covariates.csv')
+d<-merge(d,s,by='SEQN',all.x=TRUE,sort=FALSE)
+fr<-read.csv('alcohol_missing_reanalysis/survey_design_frame.csv')
+mem<-read.csv('alcohol_four_level_20261102/fixed_model_membership.csv')
+ids<-mem$SEQN[mem$outcome=='HPV' & mem$ratio=='PLR']
+dat<-cbind(fr,d[match(fr$SEQN,d$SEQN),setdiff(names(d),names(fr)),drop=FALSE])
+cv<-c('age','RIDRETH1','education','PIR','smokingnew','Alcoholuse','hypertentionnew','diabetesnew','BMXBMI','marital','activity','sexagenew','sextotal')
+for(v in setdiff(cv,'BMXBMI'))dat[[v]]<-factor(dat[[v]])
+keep<-dat$SEQN %in% ids & complete.cases(dat[,c('activity','sexagenew','sextotal')])
+design<-svydesign(ids=~SDMVPSU,strata=~design_stratum,weights=~WTfinal,nest=TRUE,data=dat)[keep,]
+design$variables<-droplevels(design$variables)
+fit<-svyglm(as.formula(paste('HPVnew ~',paste(cv,collapse=' + '))),design,family=quasibinomial())
+pr<-as.numeric(predict(fit,type='response'));y<-design$variables$HPVnew;w<-weights(design,type='sampling')
+stopifnot(length(pr)==8781,sum(y)==3935,all(is.finite(pr)))
+ths<-seq(.05,.80,.01)
+nb<-vapply(ths,function(t)sum(w*(y==1)*(pr>=t))/sum(w)-sum(w*(y==0)*(pr>=t))/sum(w)*t/(1-t),numeric(1))
+write.csv(data.frame(threshold=ths,covariates_only=nb),'hpv_sex_covariates_audit_20261102/HPV_dca_covariates_only.csv',row.names=FALSE)
+cat('PASS: 8781 fixed participants in HPV covariate-only DCA model\n')

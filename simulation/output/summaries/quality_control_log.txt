@@ -1,0 +1,17 @@
+=== Simulation quality control ===
+Started: 2026-08-01 04:33:31 
+
+[29.1] Data generation: PASS 
+[29.2] Coefficient transforms: PASS 
+[29.5] Metric directions: PASS 
+[29.5b] Fast calibration vs glm: PASS (int diff 7.43e-09, slope diff 1.31e-13)
+[29.7] Reproducibility (same seed twice): PASS 
+[29.3a] Prevalence calibration tolerance (|error| < 1e-4): PASS 
+[29.3b] Prevalence MC verification (<= 0.001 + 3*MCSE): PASS 
+Saved per-scenario prevalence_error + prevalence_mcse to simulation/output/summaries/prevalence_check.csv 
+[29.4] Nested models: PASS (mean deviance gap 1.279, rejection 0.080 +/- 0.027)
+[29.6] Null scenarios: PASS 
+[28] Coverage sanity (coverage >= 0.90 - 4*MCSE): PASS (0 scenario(s) below floor)
+
+OVERALL: ALL CHECKS PASS 
+Finished: 2026-08-01 04:34:02 

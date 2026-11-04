@@ -1,0 +1,104 @@
+﻿filename,official_url,sha256,source_list
+ALQ_C.xpt,https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/ALQ_C.xpt,e223a963ad4470e1a2e0dd1561b55a3fa91781dab3b46f5017f9eb1f62d0ced9,original manifest
+ALQ_D.xpt,https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/ALQ_D.xpt,be651da341d629cf2456e5c2fa0387c48fa67cd0949d6dc9acc46ff6060bcabe,original manifest
+ALQ_E.xpt,https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/ALQ_E.xpt,3fca970ac6ed096119d47962f3c72157dde7c11b13a499380e9a1bbb33123789,original manifest
+ALQ_F.xpt,https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/ALQ_F.xpt,15a46b2310d5ba90e1488df5f84846d97468247b0aae6608407fa9bf2405d0d1,original manifest
+ALQ_G.xpt,https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/ALQ_G.xpt,5f06ba3506f9d69cedffa0380ad0cecbc15df2d6d9b7a3644ac3e2678aaac5e5,original manifest
+ALQ_H.xpt,https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/ALQ_H.xpt,174e4dd21e05f81df8bc786a6e76253a2cdc07503cd7cde4c7dd1c1b9d3e3098,original manifest
+ALQ_I.xpt,https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/ALQ_I.xpt,ed445c40ec3f3f993f78321f86e513340d4f131708c7624d88803bde3909102d,original manifest
+BMX_C.xpt,https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/BMX_C.xpt,b3d3e431b5964ea8b5807035044322fcf32f3878d814d4a844204e51c793f090,original manifest
+BMX_D.xpt,https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/BMX_D.xpt,a52909be94cf825ba8a65477a9528603576fd5fbf3abadd72549a3f15c88566e,original manifest
+BMX_E.xpt,https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/BMX_E.xpt,b67b50dbd12c9510b49b6348b595b9fd073c422c0c6eac182f90ac57b491a97d,original manifest
+BMX_F.xpt,https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/BMX_F.xpt,1fa42e07764037674c3f56e1e76f990e10c32245897597de3d731c57b91d869a,original manifest
+BMX_G.xpt,https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/BMX_G.xpt,4814bfc3047ed400b9d43d285f8c3ea7c940ac6489404a9b699579715d158ec3,original manifest
+BMX_H.xpt,https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/BMX_H.xpt,fd5e9fc6e6aab0a4aee6e699f51497bbc9b62101f7f43aee924c473e38fd9442,original manifest
+BMX_I.xpt,https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/BMX_I.xpt,d31da84e14212b4e58e8340598a5b8e2144fac83333563e966eb1b332e4141d6,original manifest
+DEMO_C.xpt,https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/DEMO_C.xpt,2a2fdb88263337bfa06f0516bfb419631595f0a0ee88fb96069bed13d1857c6f,original manifest
+DEMO_D.xpt,https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/DEMO_D.xpt,bf9cc79cce501b2fbe5aa8d5b403b618548d02d4aefeb528335cdd9f4c40a3af,original manifest
+DEMO_E.xpt,https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/DEMO_E.xpt,02b8e97703d04bc99769c751881bece51ac9ba68cf18a2992a45d3bdfb856147,original manifest
+DEMO_F.xpt,https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/DEMO_F.xpt,78c4d4a6e5eafa9da3bbb24a90d140fef5d8c0cda932a7ff8ee609288d4fae07,original manifest
+DEMO_G.xpt,https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/DEMO_G.xpt,eaf0525d1952626885af3e935415a1f66ad62c18698080e7354789c125af252d,original manifest
+DEMO_H.xpt,https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/DEMO_H.xpt,f8f0cbb3085a323d4cde22349b164878fea1e64dbc404e65b5815c7816b547d7,original manifest
+DEMO_I.xpt,https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/DEMO_I.xpt,c9297c6c37ae8f78f29be9568fa2a03cf3b112616a39afee04030fc775a66a0d,original manifest
+DIQ_C.xpt,https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/DIQ_C.xpt,e64a1db590d733c812359abb0da6fdc3f20860ec3f89aec24442df994e90befe,original manifest
+DIQ_D.xpt,https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/DIQ_D.xpt,ac81ed56d09aadbe12df39c6991d9f4d9cfa04211aee4d103d38c981390b826e,original manifest
+DIQ_E.xpt,https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/DIQ_E.xpt,fb4d698fbec26bc8a09b2cd0f3019f815114742dd2c37ccac1aaf5e0123394c5,original manifest
+DIQ_F.xpt,https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/DIQ_F.xpt,7e90371cbc98e77a9684eff32ffa0e4ee3e8fc04d97581a8773e19cb9fe901fa,original manifest
+DIQ_G.xpt,https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/DIQ_G.xpt,a9d5475e0cd66d6a7bc30230345ed0172a9abcbc0a7a4145a35025c827a52a87,original manifest
+DIQ_H.xpt,https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/DIQ_H.xpt,c74c7ccef65e6997dfac1db1e73bc3f63dec67c70b2e322ffc14f14ce27429a9,original manifest
+DIQ_I.xpt,https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/DIQ_I.xpt,e87587479b29f175b63eee5dd40d582837e3e3fe2665503012085eefdb978e0d,original manifest
+GHB_D.xpt,https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/GHB_D.xpt,5662b07e9c0ac2afa600604b4e0f224567ce9e1e07b8787aaf5ad98717701f29,original manifest
+GHB_E.xpt,https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/GHB_E.xpt,4c0311851825e9e0352c58af193c58d8f7a3af613aa5f522893e3c8f83e53a53,original manifest
+GHB_F.xpt,https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/GHB_F.xpt,98505d8aa707bd06b8b1d488d1ecdf13388bffea6ec1b89929726e7d2b32703b,original manifest
+GHB_G.xpt,https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/GHB_G.xpt,8ff7cc95461fdfd47d2c9640b944a2bcd45926a3c0e64c98a09a4cef6c0f88d7,original manifest
+GHB_H.xpt,https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/GHB_H.xpt,0695894ad55ac96f315a8415401977b0856c402d16762115b534bcd5dfeae89e,original manifest
+GHB_I.xpt,https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/GHB_I.xpt,e4bc626cd12f6057c7806aef4f85874c9bf1407a7480d6621a4af142260addd2,original manifest
+L10_C.xpt,https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/L10_C.xpt,423d73cdd3d37e07b6bbd506bd3d2f39ce5700eebd495fc59e57337a07e122b3,original manifest
+PAQ_C.xpt,https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/PAQ_C.xpt,085928dcff32acc98efc8d1d30eeceb022b56d6ab565e0572251a325a576c765,original manifest
+PAQ_D.xpt,https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/PAQ_D.xpt,a2c21b90a964aaa08a854d66526b29a1a7ad009d8a26c3cc9a8c18bf70f0c0aa,original manifest
+PAQ_E.xpt,https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/PAQ_E.xpt,cc4fe3815c0e3602f69db33a3709bf06b7bca38c21d6b2f74d1bb5c98a5ff35a,original manifest
+PAQ_F.xpt,https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/PAQ_F.xpt,02d25e8312a36103ff6ed416dfd597fb109f5a299cc951477337ff8fe694aa84,original manifest
+PAQ_G.xpt,https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/PAQ_G.xpt,6b56874f6c3af191aebcb10316c028bc1ae1d4f89d0aafc00cc080c9f533b32a,original manifest
+PAQ_H.xpt,https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/PAQ_H.xpt,fa35acbb489594e8e55350f7402a12b5a607805c28ec16246929d33237bd3269,original manifest
+PAQ_I.xpt,https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/PAQ_I.xpt,c508dc563a907b2fcd05048f37008197257a3e1c6eb64563623c60459c1afc9d,original manifest
+BPQ_C.XPT,https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/BPQ_C.xpt,b31db89674d59073106581ed41c265c387a70000dce0cb984a865e82cd9b63a0,original manifest
+BPQ_D.XPT,https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/BPQ_D.xpt,089b29fdfbc3d46a93c63e74cfc29376b3168556813d206119d471ee48991bac,original manifest
+BPQ_E.XPT,https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/BPQ_E.xpt,b802b5855d48fc230c734083ea1e4d4a9d84e1b36bf5e78fcd725c17d6ce77df,original manifest
+BPQ_F.XPT,https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/BPQ_F.xpt,e592c987f07002eb309a63dc7ebf6a7eaa83d740a4fd6ae69af15da40c65a21a,original manifest
+BPQ_G.XPT,https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/BPQ_G.xpt,39c5a0ee1d76e6f3df867c0057986a21f4a028038002c43214c5af8bdec83cae,original manifest
+BPQ_H.XPT,https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/BPQ_H.xpt,aa6ddeab80c73b074ccfd04ad010da404ecb91c048476a194594ce9552d03d49,original manifest
+BPQ_I.XPT,https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/BPQ_I.xpt,7f7e51cd0497eb648f64eaafaf7ed07825d617c32b2cd6853ed249fce1143a38,original manifest
+BPX_C.XPT,https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/BPX_C.xpt,4df5a7dbd9e3b882b34ad516e80d09abbd0688a46d011711e7f9cdecf53ece36,original manifest
+BPX_D.XPT,https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/BPX_D.xpt,aed2f33909986e1ff0e3d58ad35795741ee90b1d146420ccbc4c5fff9436c0e9,original manifest
+BPX_E.XPT,https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/BPX_E.xpt,5a0303e68e0a4d7ebdbd2bc82f87852c31e44f1733782e107219bed9303baed5,original manifest
+BPX_F.XPT,https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/BPX_F.xpt,d09af545c732e5fb72c437e870823ec5d9efaed1ef3522210dcc1d8f47b9be57,original manifest
+BPX_G.XPT,https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/BPX_G.xpt,1dd66110f41465d601cd54f1e3c6010baafb9375f09fbcaa3aef2536876146fd,original manifest
+BPX_H.XPT,https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/BPX_H.xpt,b6641efc30ac9b9de328dfbf4110d0d120439aadca2c2bc89f2e77310d1a0c8e,original manifest
+BPX_I.XPT,https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/BPX_I.xpt,45d5c9fa101ccc6da82241bd45c99611595e699665eed2cfed232e9070b52cc1,original manifest
+SMQ_C.XPT,https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/SMQ_C.xpt,fbfe1e4b286ab43fdc3fd84c3830bb241b8b5ca84b3ab5902b8808e4136efc2c,original manifest
+SMQ_D.XPT,https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/SMQ_D.xpt,ef82433aca1a36ba2310a624ccdbaf195e2a258a88af0f284ef2a58d36be3011,original manifest
+SMQ_E.XPT,https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/SMQ_E.xpt,881865ee05f4b2be0c03c761f00ad8e355f2cc5e7d3be41666edef6f3dca5862,original manifest
+SMQ_F.XPT,https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/SMQ_F.xpt,ee85c82ea55046eb7bf491088b5bb9efecbea8aaf66ae8c89123bad23a5f1901,original manifest
+SMQ_G.XPT,https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/SMQ_G.xpt,69f2375f036a815082b1e97110e79c505b91e0985c61696f8eaacf94828115dc,original manifest
+SMQ_H.XPT,https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/SMQ_H.xpt,86d74bb8842ce6d60350944417cbd3e9ee39dd5a9fa1bda33426f276b673861f,original manifest
+SMQ_I.XPT,https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/SMQ_I.xpt,529ce1c407e99dce937ca75d14c8c630e0c9c30a4a9a851760cd2884bbb28fe0,original manifest
+BIOPRO_D.xpt,https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/BIOPRO_D.xpt,6de916025812b78db1b81e62f77d94d83ed8b046d9d5c8a9d584f7caec120310,original manifest
+BIOPRO_E.xpt,https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/BIOPRO_E.xpt,6c2cec1e790c09e0319bf5a576a2ab64861d4270679c8113663f83a6b7087ced,original manifest
+BIOPRO_F.xpt,https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/BIOPRO_F.xpt,d138350f6a9318bb6a411b67f511e8eded677baa6ca8f4cad70dd86a0f0f428a,original manifest
+BIOPRO_G.xpt,https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/BIOPRO_G.xpt,8c3a0b1bea79ff79c5600ad6a76c4206a7d689479f94ae81da6360058eda5d05,original manifest
+BIOPRO_H.xpt,https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/BIOPRO_H.xpt,b114fde7fc46933e6b4e3f620b8e7b61ea5b46f82121c0dc05a7b8c1fbdd0548,original manifest
+BIOPRO_I.xpt,https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/BIOPRO_I.xpt,1c6dd63f97db81f50891a0327c2b0f90d889c991518fea5ac2113cbf8e1a94ac,original manifest
+CBC_D.xpt,https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/CBC_D.xpt,06c68d5d40146dd606ffeb038dee1295f9a9f63009033bd78a14e0636717aad7,original manifest
+CBC_E.xpt,https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/CBC_E.xpt,e83558b948eaf1b002e029d69731c01c81935ebf85013358d59d2aa95ad38a26,original manifest
+CBC_F.xpt,https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/CBC_F.xpt,47e7f693c7899a2d487502ec4a23accadf73001292dc566e8832364e48edd5f7,original manifest
+CBC_G.xpt,https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/CBC_G.xpt,f5fd08c8f7564d73429579620f3dab4aec48cfdb0a908e450c0ea849d80589c0,original manifest
+CBC_H.xpt,https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/CBC_H.xpt,08f6fca4aacebacafb2b311c2edfc6897ad92f2c8f8dab14e18bf41acdc4ddee,original manifest
+CBC_I.xpt,https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/CBC_I.xpt,d2605788819fb3507d1a002379d69eba1ed6d3edc2b5413a947f2c2481b21278,original manifest
+HPVSWR_D.xpt,https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/HPVSWR_D.xpt,9e95a20d33aac32066ec2590e3147a4777a650b90f70b94ca9bd6601f090a0ea,original manifest
+HPVSWR_E.xpt,https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/HPVSWR_E.xpt,24b00a767cf037dfcbd3748e57aadde7cd9b40961467ec0462436672bb23673b,original manifest
+HPVSWR_F.xpt,https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/HPVSWR_F.xpt,99aee8c2e9ba776c9a5fbfcbf296b796722b9f6c143b3e375ad1310ebe712b06,original manifest
+HPVSWR_G.xpt,https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/HPVSWR_G.xpt,c9cd7e2158b03077bdceac4da8745d7c522067623f41d0ab4e678b5e9e41dcd6,original manifest
+HPVSWR_H.xpt,https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/HPVSWR_H.xpt,2f35fdc00c6f4a0aabbbe56253b6a886e2a9252afa727bdf0b00c211ee365199,original manifest
+HPVSWR_I.xpt,https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/HPVSWR_I.xpt,3e8dbecdb0f80db7ef7e89551f1663067c582d1f01aef423384346b90c7c3c49,original manifest
+L25_C.xpt,https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/L25_C.xpt,3231a8c24179b37014ddb7b6ec1afaa30295dcb14a917af30666be1e8ad9fb6e,original manifest
+L37SWR_C.xpt,https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/L37SWR_C.xpt,678f55f767266588d69277fbe350cfb73494662ec8948a9bf1bdbc3dbc5a9025,original manifest
+L40_C.xpt,https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/L40_C.xpt,a5642b8aa6e90ee0961562572f7152d47df67a318dd41cb164e3a2fe4aaaae4d,original manifest
+NHANES_2003_2004_MORT_2019_PUBLIC.dat,https://ftp.cdc.gov/pub/Health_Statistics/NCHS/datalinkage/linked_mortality/NHANES_2003_2004_MORT_2019_PUBLIC.dat,639f6b3292a55b112fbfc842954af3d8d32bcce287cd8ae49319e5aca1c033c0,original manifest
+NHANES_2005_2006_MORT_2019_PUBLIC.dat,https://ftp.cdc.gov/pub/Health_Statistics/NCHS/datalinkage/linked_mortality/NHANES_2005_2006_MORT_2019_PUBLIC.dat,69388ea13a4f395f29d9d21bc51941b9759003490d4b00f6ff12a1bc5f8dba5c,original manifest
+NHANES_2007_2008_MORT_2019_PUBLIC.dat,https://ftp.cdc.gov/pub/Health_Statistics/NCHS/datalinkage/linked_mortality/NHANES_2007_2008_MORT_2019_PUBLIC.dat,75f89bd545a13ba726a7eb56de4d62f6dfc8f0f76d505dc18ced9752d5e2c77d,original manifest
+NHANES_2009_2010_MORT_2019_PUBLIC.dat,https://ftp.cdc.gov/pub/Health_Statistics/NCHS/datalinkage/linked_mortality/NHANES_2009_2010_MORT_2019_PUBLIC.dat,eabf074331e20d3f3cbb8ddf21e3a43e517f5694187c12b755741f4472894786,original manifest
+NHANES_2011_2012_MORT_2019_PUBLIC.dat,https://ftp.cdc.gov/pub/Health_Statistics/NCHS/datalinkage/linked_mortality/NHANES_2011_2012_MORT_2019_PUBLIC.dat,ff98b6c87172643426b1c6d20f76495592bebd618ea18f742d98a44b84456b30,original manifest
+NHANES_2013_2014_MORT_2019_PUBLIC.dat,https://ftp.cdc.gov/pub/Health_Statistics/NCHS/datalinkage/linked_mortality/NHANES_2013_2014_MORT_2019_PUBLIC.dat,588acea1d4cdf47a14cc9a35bd56e372739b8788d63ca0af98bf954c70c29905,original manifest
+NHANES_2015_2016_MORT_2019_PUBLIC.dat,https://ftp.cdc.gov/pub/Health_Statistics/NCHS/datalinkage/linked_mortality/NHANES_2015_2016_MORT_2019_PUBLIC.dat,f392baaf9c20a4c75bc9936775ba956e64528fa5ada5102b08f86f64e41e84a0,original manifest
+SXQ_C.xpt,https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/SXQ_C.xpt,83c20e555f2fa7f39eaeb1bea3a7ed4a68e4d70c1e78ec8469a5b38893ad2826,"sexual-history source, added"
+SXQ_D.xpt,https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/SXQ_D.xpt,735d18fc886c3c01ce79fe764a5dbcbc87b6b1fb3e443368610967e8e651a112,"sexual-history source, added"
+SXQ_E.xpt,https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/SXQ_E.xpt,0d3f72f28f3221922dd757d36370060f222f81eb36cd78b6096fb05637967387,"sexual-history source, added"
+SXQ_F.xpt,https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/SXQ_F.xpt,25979db5d2f946457210fc0e3beaa8cf49bd89a5a435934847815907cd520c66,"sexual-history source, added"
+SXQ_G.xpt,https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/SXQ_G.xpt,6546c06e69988c3f8c5bc21f51094112713953e62809e2832b752bc77a62d1b1,"sexual-history source, added"
+SXQ_H.xpt,https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/SXQ_H.xpt,291d00ff804e776e0e50d3b17c5eb8b08ed7c8bd88e2f8fd37b07c5678cf0c7c,"sexual-history source, added"
+SXQ_I.xpt,https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/SXQ_I.xpt,6db887159ef8607f77ebb741136d829a03f5e5db7c4112cb76fd7f9e54683b52,"sexual-history source, added"
+L11_C.xpt,https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/L11_C.xpt,f8941c4561d166fe68c16194108269ba00b4bfbe2aa10b20d5bfbc0c7e521760,CRP source added during archive audit
+CRP_D.xpt,https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/CRP_D.xpt,4afe7cc036d3268601dc77ba1d3d9b85bbec80c2bc0670ec554550001aa0498b,CRP source added during archive audit
+CRP_E.xpt,https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/CRP_E.xpt,5cf3fc87d8c5eb8b8c053e5a8ea183b62dd29b417c4aeaaa53dc4b354ef611ab,CRP source added during archive audit
+CRP_F.xpt,https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/CRP_F.xpt,049ab627054bda1b540353b0e80bfd9c1ef2ef67b22cb0f1a84f22a42404fc1f,CRP source added during archive audit
+HSCRP_I.xpt,https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/HSCRP_I.xpt,fe171120e6aa16d1d6fe04232c0d7ba54b25f9b3855783d78516437f173aa396,CRP source added during archive audit

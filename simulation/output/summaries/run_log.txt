@@ -1,0 +1,24 @@
+=== Simulation run log ===
+Start: 2026-07-31 22:10:00
+End:   2026-08-01 09:53:01
+Machine: Windows 10 x64 x86-64
+R version: R version 4.6.0 (2026-04-24 ucrt)
+Master seed: 20260731
+Stage: 4
+Workers: 4
+Repetitions per scenario (M): 1000
+Test population size (n_test): 100000
+Packages:
+  furrr 0.4.0
+  future 1.75.0
+  ggplot2 4.0.3
+  purrr 1.2.2
+  tidyr 1.3.2
+  dplyr 1.2.1
+  pROC 1.19.0.1
+  MASS 7.3-65
+Scenarios run: 24
+Successful repetitions: 24000
+Failed repetitions: 0
+Raw result files: 24
+Output file hashes: see output_manifest.csv (regenerate with md5sum over simulation/)

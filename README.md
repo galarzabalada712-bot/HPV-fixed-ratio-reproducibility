@@ -18,9 +18,9 @@ Make a writable copy of the directory. Before running, check the saved hashes wi
 python path/to/package/run_all.py --rscript "C:/Program Files/R/R-4.6.0/bin/Rscript.exe" --workers 2
 ```
 
-Omit `--rscript` if Rscript is on PATH. Python must provide pandas and NumPy; `read_sas` must support XPT. The driver locates its own root and runs all steps in that directory. It overwrites generated output files within the copy; frozen references remain under `reference/`. It performs:
+Omit `--rscript` if Rscript is on PATH. Python must provide pandas and NumPy; `read_sas` must support XPT. The driver locates its own root and runs all steps in that directory. If running the component scripts individually, run `python restore_inputs.py` from the package root first. It overwrites generated output files within the copy; frozen references remain under `reference/`. It performs:
 
-1. Derive and check sexual-history categories and CRP input from the included XPT files (`prepare_inputs.py`). The original cohort and survey frame are inputs, not recomputed. `cohort_rules.py` and `verify_cohort_rules.py` independently reapply and check current diabetes, activity, education, PIR, smoking, hypertension, follow-up, alcohol, marital and weight derivations against all 11,884 frozen records.
+1. Decompress the two frozen input CSV files, verify their SHA-256 hashes, then derive and check sexual-history categories and CRP input from the included XPT files (`prepare_inputs.py`). The original cohort and survey frame are inputs, not recomputed. `cohort_rules.py` and `verify_cohort_rules.py` independently reapply and check current diabetes, activity, education, PIR, smoking, hypertension, follow-up, alcohol, marital and weight derivations against all 11,884 frozen records.
 2. Refit eight named HPV constraints and eight exploratory mortality constraints with paired samples, survey design, marital strata for mortality, and seven-constraint Holm correction (`refit_alcohol_four_level_20261102.R`).
 3. Recompute Table 1 statistics, CLR complete cases, 20-imputation measured-cycle analysis and post-hoc 2003–2010 sensitivity (`hpv_extra_covariates_table1_20261102.R`, `hpv_sync_clr_20261102.R`, `audit_clr_early.R`).
 4. Run 14 HPV performance comparisons with 10 paired bootstrap replicates as a smoke test, refit the covariate-only decision curve and compare point estimates/curves to frozen results. **The 10-replicate intervals are not the manuscript intervals.**
@@ -38,15 +38,15 @@ Add `--simulation-stage4` to rerun the 24 scenarios with 1,000 repetitions each.
 
 ## Data and result locations
 
-- `alcohol_four_level_20261102/analysis_input.csv`: frozen reconstructed cohort; 133 columns including public source fields and derived audit fields.
-- `alcohol_missing_reanalysis/survey_design_frame.csv`: full 68,303-record frame with weights, strata and PSU, used before selecting analysis domains. The directory name is a historical label; the current analysis uses the four-level alcohol coding in `analysis_input.csv`.
+- `alcohol_four_level_20261102/analysis_input.csv.gz`: compressed frozen reconstructed cohort, restored to `.csv` by the driver; 133 columns including public source fields and derived audit fields.
+- `alcohol_missing_reanalysis/survey_design_frame.csv.gz`: compressed full 68,303-record frame with weights, strata and PSU, used before selecting analysis domains. The directory name is a historical label; the current analysis uses the four-level alcohol coding in `analysis_input.csv`.
 - `alcohol_four_level_20261102/fixed_model_membership.csv`: frozen SEQN membership for each outcome and ratio; identifiers are NHANES public sequence IDs.
 - `source_cache/SXQ_*.xpt` and `nhanes_raw/`: the included public NHANES files used for the current sex and CRP preparations.
 - `data_dictionary.csv`: variables, data types, missing counts and descriptions for the frozen cohort. Core analysis variables and derived audit fields are described; original NHANES source fields refer to the corresponding cycle-specific CDC codebooks for complete response labels and skip patterns.
 - `reference/`: frozen numerical results, 14,000 bootstrap records, official-file list, original CRP and sex-category comparison inputs, baseline decision curve, Figure 1 historical PDF and HPV figure PDFs.
 - `simulation/output/raw/`: original 24 RDS records; `simulation/output/summaries/` and `simulation/output/tables/` contain associated summaries. The obsolete historical manifest was deliberately not included.
 - `hpv_sex_covariates_audit_20261102/full/`: initially seeded with frozen performance and decision curve CSVs so figure generation does not require a full bootstrap; running `--full-bootstrap` replaces these with fresh outputs.
-- `hpv_sex_covariates_audit_20261102/pilot_10/`, `hpv_sync_20261102/`, `clr_unit_audit_20261103/` and `alcohol_four_level_20261102/models/`: generated analysis outputs; retain the `reference/` copy for comparisons.
+- `hpv_sex_covariates_audit_20261102/pilot_10/`, `hpv_sync_20261102/`, `clr_unit_audit_20261103/` and `alcohol_four_level_20261102/models/`: generated analysis outputs; retain the `reference/` copy for comparisons. To keep the distribution compact, 34 pre-generated model RDS files are omitted and are recreated by the driver. Their paths are listed in `reference/regenerable_model_objects_omitted.csv`. The 24 original simulation RDS and frozen bootstrap replicates remain included.
 
 ## Analysis definitions and limitations
 

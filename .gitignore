@@ -1,0 +1,6 @@
+__pycache__/
+alcohol_four_level_20261102/analysis_input.csv
+alcohol_missing_reanalysis/survey_design_frame.csv
+alcohol_four_level_20261102/models/*.rds
+hpv_sync_20261102/CLR_complete_case_models.rds
+clr_unit_audit_20261103/CLR_2003_2010_models.rds

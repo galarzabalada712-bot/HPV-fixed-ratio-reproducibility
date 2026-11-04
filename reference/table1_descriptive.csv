@@ -1,0 +1,213 @@
+"domain","variable","code","label","HPV","n","weighted_percent"
+"candidate_cohort","age","1","18–29",0,1822,22.6880569643138
+"candidate_cohort","age","1","18–29",1,1973,32.5034980638226
+"candidate_cohort","age","2","30–39",0,1591,23.8964352489862
+"candidate_cohort","age","2","30–39",1,1161,22.6605177762335
+"candidate_cohort","age","3","40–49",0,1679,26.7121399420923
+"candidate_cohort","age","3","40–49",1,1189,24.6901030712352
+"candidate_cohort","age","4","50–59",0,1468,26.7033678446077
+"candidate_cohort","age","4","50–59",1,1001,20.1458810887087
+"candidate_cohort","age","NA","Missing",0,0,0
+"candidate_cohort","age","NA","Missing",1,0,0
+"candidate_cohort","RIDRETH1","1","Mexican American",0,1335,9.47569749074385
+"candidate_cohort","RIDRETH1","1","Mexican American",1,920,9.32422485469726
+"candidate_cohort","RIDRETH1","2","Other Hispanic",0,625,5.49263720588711
+"candidate_cohort","RIDRETH1","2","Other Hispanic",1,545,6.91021175728791
+"candidate_cohort","RIDRETH1","3","Non-Hispanic White",0,2760,68.5200904513772
+"candidate_cohort","RIDRETH1","3","Non-Hispanic White",1,1902,59.3836411867853
+"candidate_cohort","RIDRETH1","4","Non-Hispanic Black",0,1040,8.43372464700797
+"candidate_cohort","RIDRETH1","4","Non-Hispanic Black",1,1602,18.484371053288
+"candidate_cohort","RIDRETH1","5","Other",0,800,8.07785020498383
+"candidate_cohort","RIDRETH1","5","Other",1,355,5.89755114794153
+"candidate_cohort","RIDRETH1","NA","Missing",0,0,0
+"candidate_cohort","RIDRETH1","NA","Missing",1,0,0
+"candidate_cohort","education","1","Below high school",0,1359,13.0076378948822
+"candidate_cohort","education","1","Below high school",1,1292,17.3262202901593
+"candidate_cohort","education","2","High school",0,1321,19.1975617210688
+"candidate_cohort","education","2","High school",1,1284,22.8270842961699
+"candidate_cohort","education","3","Above high school",0,3877,67.7640780509581
+"candidate_cohort","education","3","Above high school",1,2746,59.8187392597851
+"candidate_cohort","education","NA","Missing",0,3,0.0307223330909546
+"candidate_cohort","education","NA","Missing",1,2,0.0279561538856885
+"candidate_cohort","marital","1","Never married",0,1240,15.5912758439205
+"candidate_cohort","marital","1","Never married",1,1571,25.7721708589442
+"candidate_cohort","marital","2","Married or living with partner",0,4212,70.298962899814
+"candidate_cohort","marital","2","Married or living with partner",1,2356,49.1169453268397
+"candidate_cohort","marital","3","Previously married",0,809,11.5374211745453
+"candidate_cohort","marital","3","Previously married",1,1145,22.2527911922589
+"candidate_cohort","marital","4","Not recorded",0,299,2.57234008172014
+"candidate_cohort","marital","4","Not recorded",1,252,2.85809262195717
+"candidate_cohort","marital","NA","Missing",0,0,0
+"candidate_cohort","marital","NA","Missing",1,0,0
+"candidate_cohort","PIR","1","≤1.3",0,1898,18.4930050713189
+"candidate_cohort","PIR","1","≤1.3",1,2079,29.3119887457509
+"candidate_cohort","PIR","2",">1.3 to 3.5",0,2101,31.0890438865124
+"candidate_cohort","PIR","2",">1.3 to 3.5",1,1670,32.4829474303029
+"candidate_cohort","PIR","3",">3.5",0,2139,45.272305229145
+"candidate_cohort","PIR","3",">3.5",1,1194,32.2918376264361
+"candidate_cohort","PIR","NA","Missing",0,422,5.14564581302374
+"candidate_cohort","PIR","NA","Missing",1,381,5.91322619751016
+"candidate_cohort","smokingnew","0","Never",0,4345,64.3922351391126
+"candidate_cohort","smokingnew","0","Never",1,2831,52.0335609779822
+"candidate_cohort","smokingnew","1","Former",0,926,17.7207679388632
+"candidate_cohort","smokingnew","1","Former",1,690,15.5314927730736
+"candidate_cohort","smokingnew","2","Current",0,929,15.3920398579389
+"candidate_cohort","smokingnew","2","Current",1,1393,29.2744449084675
+"candidate_cohort","smokingnew","NA","Missing",0,360,2.4949570640853
+"candidate_cohort","smokingnew","NA","Missing",1,410,3.1605013404767
+"candidate_cohort","Alcoholuse","0","Never",0,1224,14.5609183211608
+"candidate_cohort","Alcoholuse","0","Never",1,614,8.54729570273014
+"candidate_cohort","Alcoholuse","1","Mild",0,428,5.92873313209501
+"candidate_cohort","Alcoholuse","1","Mild",1,249,4.25238273422972
+"candidate_cohort","Alcoholuse","2","Heavy",0,172,1.87668047013436
+"candidate_cohort","Alcoholuse","2","Heavy",1,170,2.57360844559268
+"candidate_cohort","Alcoholuse","3","Not recorded",0,4736,77.6336680766099
+"candidate_cohort","Alcoholuse","3","Not recorded",1,4291,84.6267131174475
+"candidate_cohort","Alcoholuse","NA","Missing",0,0,0
+"candidate_cohort","Alcoholuse","NA","Missing",1,0,0
+"candidate_cohort","activity","0","No reported leisure activity",0,2835,37.3484354672511
+"candidate_cohort","activity","0","No reported leisure activity",1,2528,42.4664117220572
+"candidate_cohort","activity","1","Any reported leisure activity",0,3703,62.3228395979819
+"candidate_cohort","activity","1","Any reported leisure activity",1,2775,57.0534458206463
+"candidate_cohort","activity","NA","Missing",0,22,0.328724934767017
+"candidate_cohort","activity","NA","Missing",1,21,0.480142457296541
+"candidate_cohort","hypertentionnew","0","No",0,5060,76.7173761392934
+"candidate_cohort","hypertentionnew","0","No",1,4011,76.1949020063595
+"candidate_cohort","hypertentionnew","1","Yes",0,1499,23.2768306782474
+"candidate_cohort","hypertentionnew","1","Yes",1,1313,23.8050979936405
+"candidate_cohort","hypertentionnew","NA","Missing",0,1,0.00579318245929657
+"candidate_cohort","hypertentionnew","NA","Missing",1,0,0
+"candidate_cohort","diabetesnew","0","No",0,5930,91.6687584609934
+"candidate_cohort","diabetesnew","0","No",1,4835,92.1577929149365
+"candidate_cohort","diabetesnew","1","Yes",0,549,7.0408202214179
+"candidate_cohort","diabetesnew","1","Yes",1,411,6.38081282811937
+"candidate_cohort","diabetesnew","NA","Missing",0,81,1.29042131758871
+"candidate_cohort","diabetesnew","NA","Missing",1,78,1.46139425694415
+"candidate_cohort","sexagenew","1","Before 18 years",0,2701,44.3986034358697
+"candidate_cohort","sexagenew","1","Before 18 years",1,2947,58.5493853884608
+"candidate_cohort","sexagenew","2","At least 18 years",0,2582,41.356431696685
+"candidate_cohort","sexagenew","2","At least 18 years",1,1495,29.998973199341
+"candidate_cohort","sexagenew","NA","Missing",0,1277,14.2449648674453
+"candidate_cohort","sexagenew","NA","Missing",1,882,11.4516414121982
+"candidate_cohort","sextotal","0","0",0,284,3.18597288152815
+"candidate_cohort","sextotal","0","0",1,53,0.620251167156085
+"candidate_cohort","sextotal","1","1",0,1439,21.1078477768458
+"candidate_cohort","sextotal","1","1",1,334,4.8838796945312
+"candidate_cohort","sextotal","2","2–5",0,2185,35.3135680547798
+"candidate_cohort","sextotal","2","2–5",1,1772,32.6825583828974
+"candidate_cohort","sextotal","3","6–10",0,976,16.8274015536718
+"candidate_cohort","sextotal","3","6–10",1,1232,25.5811366228054
+"candidate_cohort","sextotal","4","More than 10",0,639,11.960089553616
+"candidate_cohort","sextotal","4","More than 10",1,1057,24.5349275500629
+"candidate_cohort","sextotal","NA","Missing",0,1037,11.6051201795585
+"candidate_cohort","sextotal","NA","Missing",1,876,11.697246582547
+"candidate_cohort","BMXBMI","mean","Mean BMI (standard error)",0,6560,28.7160837545264
+"candidate_cohort","BMXBMI","SE","BMI standard error",0,6560,0.129889518213359
+"candidate_cohort","BMXBMI","mean","Mean BMI (standard error)",1,5324,28.7211993009347
+"candidate_cohort","BMXBMI","SE","BMI standard error",1,5324,0.132150997505402
+"HPV_model","age","1","18–29",0,1359,20.9024282048399
+"HPV_model","age","1","18–29",1,1446,30.4248600723674
+"HPV_model","age","2","30–39",0,1491,24.6449802481246
+"HPV_model","age","2","30–39",1,1076,23.4443323129002
+"HPV_model","age","3","40–49",0,1545,27.3167610790274
+"HPV_model","age","3","40–49",1,1092,25.6952372092492
+"HPV_model","age","4","50–59",0,1339,27.135830468008
+"HPV_model","age","4","50–59",1,882,20.4355704054832
+"HPV_model","age","NA","Missing",0,0,0
+"HPV_model","age","NA","Missing",1,0,0
+"HPV_model","RIDRETH1","1","Mexican American",0,1087,8.95935884301488
+"HPV_model","RIDRETH1","1","Mexican American",1,717,8.75930742474877
+"HPV_model","RIDRETH1","2","Other Hispanic",0,528,5.24130849994048
+"HPV_model","RIDRETH1","2","Other Hispanic",1,439,6.54057599030277
+"HPV_model","RIDRETH1","3","Non-Hispanic White",0,2518,69.642850901944
+"HPV_model","RIDRETH1","3","Non-Hispanic White",1,1711,60.8068378579076
+"HPV_model","RIDRETH1","4","Non-Hispanic Black",0,880,8.22317066497047
+"HPV_model","RIDRETH1","4","Non-Hispanic Black",1,1320,18.1612145125397
+"HPV_model","RIDRETH1","5","Other",0,721,7.9333110901302
+"HPV_model","RIDRETH1","5","Other",1,309,5.73206421450119
+"HPV_model","RIDRETH1","NA","Missing",0,0,0
+"HPV_model","RIDRETH1","NA","Missing",1,0,0
+"HPV_model","education","1","Below high school",0,1093,12.1325431933278
+"HPV_model","education","1","Below high school",1,995,16.0479044555418
+"HPV_model","education","2","High school",0,1109,18.717030004174
+"HPV_model","education","2","High school",1,1030,22.0311299599487
+"HPV_model","education","3","Above high school",0,3532,69.1504268024982
+"HPV_model","education","3","Above high school",1,2471,61.9209655845095
+"HPV_model","education","NA","Missing",0,0,0
+"HPV_model","education","NA","Missing",1,0,0
+"HPV_model","marital","1","Never married",0,972,14.926170934619
+"HPV_model","marital","1","Never married",1,1260,25.4298031826835
+"HPV_model","marital","2","Married or living with partner",0,3874,72.001051000137
+"HPV_model","marital","2","Married or living with partner",1,2115,50.6740493058053
+"HPV_model","marital","3","Previously married",0,749,11.8717968575556
+"HPV_model","marital","3","Previously married",1,1049,22.8806692105111
+"HPV_model","marital","4","Not recorded",0,139,1.20098120768843
+"HPV_model","marital","4","Not recorded",1,72,1.01547830100012
+"HPV_model","marital","NA","Missing",0,0,0
+"HPV_model","marital","NA","Missing",1,0,0
+"HPV_model","PIR","1","≤1.3",0,1693,18.8988631864945
+"HPV_model","PIR","1","≤1.3",1,1819,30.4947912671987
+"HPV_model","PIR","2",">1.3 to 3.5",0,1991,32.879199222885
+"HPV_model","PIR","2",">1.3 to 3.5",1,1546,34.7896895666674
+"HPV_model","PIR","3",">3.5",0,2050,48.2219375906206
+"HPV_model","PIR","3",">3.5",1,1131,34.7155191661339
+"HPV_model","PIR","NA","Missing",0,0,0
+"HPV_model","PIR","NA","Missing",1,0,0
+"HPV_model","smokingnew","0","Never",0,3996,65.7977290741367
+"HPV_model","smokingnew","0","Never",1,2578,53.5218082248189
+"HPV_model","smokingnew","1","Former",0,871,18.2268510590416
+"HPV_model","smokingnew","1","Former",1,635,16.1247324381921
+"HPV_model","smokingnew","2","Current",0,867,15.9754198668217
+"HPV_model","smokingnew","2","Current",1,1283,30.353459336989
+"HPV_model","smokingnew","NA","Missing",0,0,0
+"HPV_model","smokingnew","NA","Missing",1,0,0
+"HPV_model","Alcoholuse","0","Never",0,1078,14.4874491259458
+"HPV_model","Alcoholuse","0","Never",1,524,8.28628658779082
+"HPV_model","Alcoholuse","1","Mild",0,399,6.14408966018279
+"HPV_model","Alcoholuse","1","Mild",1,225,4.38905125989819
+"HPV_model","Alcoholuse","2","Heavy",0,159,1.94074617173523
+"HPV_model","Alcoholuse","2","Heavy",1,150,2.58496311343534
+"HPV_model","Alcoholuse","3","Not recorded",0,4098,77.4277150421361
+"HPV_model","Alcoholuse","3","Not recorded",1,3597,84.7396990388757
+"HPV_model","Alcoholuse","NA","Missing",0,0,0
+"HPV_model","Alcoholuse","NA","Missing",1,0,0
+"HPV_model","activity","0","No reported leisure activity",0,2476,36.8890166488555
+"HPV_model","activity","0","No reported leisure activity",1,2170,42.4167289035361
+"HPV_model","activity","1","Any reported leisure activity",0,3238,62.7770500667712
+"HPV_model","activity","1","Any reported leisure activity",1,2305,57.0485472181336
+"HPV_model","activity","NA","Missing",0,20,0.333933284373314
+"HPV_model","activity","NA","Missing",1,21,0.534723878330243
+"HPV_model","hypertentionnew","0","No",0,4367,76.2952897854111
+"HPV_model","hypertentionnew","0","No",1,3350,76.0742467561248
+"HPV_model","hypertentionnew","1","Yes",0,1367,23.7047102145889
+"HPV_model","hypertentionnew","1","Yes",1,1146,23.9257532438752
+"HPV_model","hypertentionnew","NA","Missing",0,0,0
+"HPV_model","hypertentionnew","NA","Missing",1,0,0
+"HPV_model","diabetesnew","0","No",0,5225,92.7794672365962
+"HPV_model","diabetesnew","0","No",1,4121,93.344355079791
+"HPV_model","diabetesnew","1","Yes",0,509,7.22053276340376
+"HPV_model","diabetesnew","1","Yes",1,375,6.65564492020902
+"HPV_model","diabetesnew","NA","Missing",0,0,0
+"HPV_model","diabetesnew","NA","Missing",1,0,0
+"HPV_model","sexagenew","1","Before 18 years",0,2480,45.4432599610161
+"HPV_model","sexagenew","1","Before 18 years",1,2648,59.8947590934557
+"HPV_model","sexagenew","2","At least 18 years",0,2402,42.6299752345329
+"HPV_model","sexagenew","2","At least 18 years",1,1333,30.7731047376503
+"HPV_model","sexagenew","NA","Missing",0,852,11.926764804451
+"HPV_model","sexagenew","NA","Missing",1,515,9.33213616889406
+"HPV_model","sextotal","0","0",0,211,2.8345684412362
+"HPV_model","sextotal","0","0",1,43,0.547924922268447
+"HPV_model","sextotal","1","1",0,1300,21.345775887689
+"HPV_model","sextotal","1","1",1,267,4.58330791078297
+"HPV_model","sextotal","2","2–5",0,2007,36.1500143824333
+"HPV_model","sextotal","2","2–5",1,1553,32.9299415283366
+"HPV_model","sextotal","3","6–10",0,926,17.5327285861964
+"HPV_model","sextotal","3","6–10",1,1139,26.7147831277401
+"HPV_model","sextotal","4","More than 10",0,612,12.5465053062436
+"HPV_model","sextotal","4","More than 10",1,981,25.5390742980385
+"HPV_model","sextotal","NA","Missing",0,678,9.59040739620157
+"HPV_model","sextotal","NA","Missing",1,513,9.68496821283342
+"HPV_model","BMXBMI","mean","Mean BMI (standard error)",0,5734,28.7909619556134
+"HPV_model","BMXBMI","SE","BMI standard error",0,5734,0.137613209723992
+"HPV_model","BMXBMI","mean","Mean BMI (standard error)",1,4496,28.7918837071261
+"HPV_model","BMXBMI","SE","BMI standard error",1,4496,0.136048438263107

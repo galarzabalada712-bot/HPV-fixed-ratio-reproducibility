@@ -1,0 +1,33 @@
+R version 4.6.0 (2026-04-24 ucrt)
+Platform: x86_64-w64-mingw32/x64
+Running under: Windows 11 x64 (build 26200)
+
+Matrix products: default
+  LAPACK version 3.12.1
+
+locale:
+[1] C
+system code page: 65001
+
+time zone: Asia/Shanghai
+tzcode source: internal
+
+attached base packages:
+[1] grid      stats     graphics  grDevices utils     datasets  methods  
+[8] base     
+
+other attached packages:
+[1] mice_3.19.0    survey_4.5     survival_3.8-6 Matrix_1.7-5  
+
+loaded via a namespace (and not attached):
+ [1] mitml_0.4-5      glmnet_5.0       dplyr_1.2.1      compiler_4.6.0  
+ [5] rpart_4.1.27     tidyselect_1.2.1 Rcpp_1.1.1-1.1   tidyr_1.3.2     
+ [9] splines_4.6.0    boot_1.3-32      lattice_0.22-9   R6_2.6.1        
+[13] generics_0.1.4   shape_1.4.6.1    pan_1.9          rbibutils_2.4.1 
+[17] MASS_7.3-65      iterators_1.0.14 backports_1.5.1  tibble_3.3.1    
+[21] nloptr_2.2.1     nnet_7.3-20      minqa_1.2.8      DBI_1.3.0       
+[25] pillar_1.11.1    rlang_1.2.0      broom_1.0.13     cli_3.6.6       
+[29] magrittr_2.0.5   Rdpack_2.6.6     jomo_2.7-6       foreach_1.5.2   
+[33] lme4_2.0-1       nlme_3.1-169     lifecycle_1.0.5  reformulas_0.4.4
+[37] vctrs_0.7.3      glue_1.8.1       codetools_0.2-20 mitools_2.4     
+[41] purrr_1.2.2      tools_4.6.0      pkgconfig_2.0.3 

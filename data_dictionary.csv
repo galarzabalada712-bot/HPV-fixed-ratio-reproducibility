@@ -1,0 +1,134 @@
+﻿variable,dtype_in_snapshot,missing_count,description
+SEQN,int64,0,NHANES respondent identifier
+RIAGENDR,int64,0,NHANES source field: see the relevant cycle-specific CDC codebook.
+RIDAGEYR,int64,0,Age in years at screening
+WTMEC2YR,float64,0,Two-year NHANES examination sample weight
+SDMVSTRA,int64,0,NHANES masked variance stratum
+SDMVPSU,int64,0,NHANES masked variance PSU nested in design_stratum
+DIQ010,int64,0,NHANES source field: see the relevant cycle-specific CDC codebook.
+DIQ050,int64,0,NHANES source field: see the relevant cycle-specific CDC codebook.
+pills,float64,10489,Diabetes oral medication response harmonized from DID070 or DIQ070 by cycle.
+pills_source_field,str,0,Original questionnaire field used for pills in that cycle.
+ALQ101,float64,1631,Alcohol questionnaire skip variable
+ALQ110,float64,8289,Alcohol questionnaire lifetime drinking indicator
+ALQ120Q,float64,3473,"Alcohol frequency quantity, including zero for no past-year drinking"
+ALQ120U,float64,4874,NHANES source field: see the relevant cycle-specific CDC codebook.
+ALQ130,float64,4869,Average drinks on a drinking day; special codes vary by cycle
+X_ALQ_present,float64,655,Indicator indicating a matching record in the ALQ file.
+PAD200,float64,8813,NHANES source field: see the relevant cycle-specific CDC codebook.
+PAD320,float64,8813,NHANES source field: see the relevant cycle-specific CDC codebook.
+LBXGH,float64,17,Glycohemoglobin HbA1c percentage
+BMXBMI,float64,0,"Body mass index, kg/m²"
+LBXRDW,float64,0,NHANES source field: see the relevant cycle-specific CDC codebook.
+LBXWBCSI,float64,0,NHANES source field: see the relevant cycle-specific CDC codebook.
+LBDNENO,float64,0,NHANES source field: see the relevant cycle-specific CDC codebook.
+LBDLYMNO,float64,0,NHANES source field: see the relevant cycle-specific CDC codebook.
+LBDMONO,float64,0,NHANES source field: see the relevant cycle-specific CDC codebook.
+LBXPLTSI,float64,0,NHANES source field: see the relevant cycle-specific CDC codebook.
+LBXHGB,float64,0,Haemoglobin
+LBXSAL,float64,0,NHANES source field: see the relevant cycle-specific CDC codebook.
+LBDRPCR,int64,0,"Vaginal HPV summary result; 1 positive, 2 negative"
+year,str,0,Two-year survey cycle label.
+cycle_start,int64,0,Survey-cycle starting year
+PAQ605,float64,3071,NHANES source field: see the relevant cycle-specific CDC codebook.
+PAQ610,float64,10732,NHANES source field: see the relevant cycle-specific CDC codebook.
+PAD615,float64,10736,NHANES source field: see the relevant cycle-specific CDC codebook.
+PAQ620,float64,3071,NHANES source field: see the relevant cycle-specific CDC codebook.
+PAQ625,float64,8878,NHANES source field: see the relevant cycle-specific CDC codebook.
+PAD630,float64,8889,NHANES source field: see the relevant cycle-specific CDC codebook.
+PAQ650,float64,3071,NHANES source field: see the relevant cycle-specific CDC codebook.
+PAQ655,float64,9866,NHANES source field: see the relevant cycle-specific CDC codebook.
+PAD660,float64,9867,NHANES source field: see the relevant cycle-specific CDC codebook.
+PAQ665,float64,3071,NHANES source field: see the relevant cycle-specific CDC codebook.
+PAQ670,float64,8103,NHANES source field: see the relevant cycle-specific CDC codebook.
+PAD675,float64,8105,NHANES source field: see the relevant cycle-specific CDC codebook.
+female_18_59,bool,0,Whether female and age 18–59 at screening.
+valid_hpv,bool,0,Whether HPV summary is 1 or 2.
+valid_components,bool,0,"All specified component values positive, with monocytes ≥1e-10."
+available_components,bool,0,All specified component values finite and nonnegative.
+valid_bmi,bool,0,BMI finite and greater than zero.
+valid_design,bool,0,Positive finite exam weight and nonmissing PSU and stratum.
+candidate_eligible,bool,0,"All initial female, HPV, positive-component, BMI, and survey design criteria met."
+candidate_available_components,bool,0,"All initial female, HPV, available-component, BMI, and design criteria met."
+exclusion_reason,str,0,"First failing candidate screening condition, or candidate eligible."
+diabetes_corrected,int64,0,"Prior harmonized diabetes: 0 negative, 1 positive, 2 unknown; positive diagnosis, medication or HbA1c ≥6.5 takes priority."
+diabetes_reason,str,0,Reason for diabetes classification; see derive() in cohort_rules.py.
+diabetes_borderline_reported,bool,0,DIQ010 indicates borderline diabetes.
+diabetes_medication_positive,bool,0,DIQ050 or harmonized pills variable indicates diabetes medication.
+diabetes_hba1c_positive,bool,0,Valid HbA1c at least 6.5%.
+alcohol_status,int64,0,"Earlier lifetime/frequency-based audit classification, not the current four-level Alcoholuse model variable."
+alcohol_reason,str,0,Reason for earlier alcohol_status classification.
+alcohol_ALQ110_structural_skip,bool,0,"ALQ101=1 and ALQ110 missing, a structural skip flag."
+drinks_per_drinking_day,float64,4878,Earlier audit descriptor of intensity; historical special-code treatment differs by cycle from final Alcoholuse.
+activity_leisure_any,int64,0,"Any reported leisure activity: 0 no, 1 yes, 2 unknown."
+activity_reason,str,0,Reason for any leisure activity classification.
+activity_recall_period,str,0,Early cycles past 30 days; later cycles typical week.
+vigorous_work_minutes_week,float64,3078,"Valid later-cycle vigorous work frequency times minutes; no=0, early cycles unavailable."
+moderate_work_minutes_week,float64,3087,"Valid later-cycle moderate work frequency times minutes; no=0, early cycles unavailable."
+vigorous_recreation_minutes_week,float64,3072,"Valid later-cycle vigorous recreation frequency times minutes; no=0, early cycles unavailable."
+moderate_recreation_minutes_week,float64,3075,"Valid later-cycle moderate recreation frequency times minutes; no=0, early cycles unavailable."
+work_recreation_equivalent_minutes,float64,3092,Moderate work plus recreation minutes and twice vigorous work plus recreation minutes.
+activity_weekly_category,float64,3071,"Later-cycle equivalent minutes: 0=0, 1=1–149, 2=≥150, 3=unknown; early cycles missing."
+diabetes_analysis,float64,159,diabetes_corrected with unknown code 2 set to missing.
+alcohol_status_analysis,float64,1640,Earlier alcohol_status with code 3 set to missing; not the final Alcoholuse.
+activity_leisure_analysis,float64,43,activity_leisure_any with unknown code 2 set to missing.
+in_legacy_cohort,bool,0,"Whether present in the earlier 11,145-person cohort; historical original filter could not be recovered."
+age_group_corrected,int64,0,"Age categories 18–29, 30–39, 40–49 and 50–59 coded 1–4."
+HPV_binary_official,int64,0,LBDRPCR=1 maps to 1; LBDRPCR=2 maps to 0.
+WTMEC_7cycles,float64,0,Two-year MEC weight divided by seven.
+RIDRETH1,int64,0,NHANES race/ethnicity code
+DMDEDUC2,float64,1003,NHANES source field: see the relevant cycle-specific CDC codebook.
+DMDEDUC3,float64,10881,NHANES source field: see the relevant cycle-specific CDC codebook.
+DMDMARTL,float64,548,NHANES marital status raw code; public release limitations apply
+INDFMPIR,float64,803,NHANES source field: see the relevant cycle-specific CDC codebook.
+SMQ020,float64,767,NHANES source field: see the relevant cycle-specific CDC codebook.
+SMQ040,float64,7946,NHANES source field: see the relevant cycle-specific CDC codebook.
+BPQ020,float64,12,NHANES told had high blood pressure
+BPQ040A,float64,9413,NHANES blood pressure questionnaire indicator; see the cycle-specific BPQ codebook.
+BPXSY1,float64,694,NHANES source field: see the relevant cycle-specific CDC codebook.
+BPXSY2,float64,660,NHANES source field: see the relevant cycle-specific CDC codebook.
+BPXSY3,float64,733,NHANES source field: see the relevant cycle-specific CDC codebook.
+BPXSY4,float64,10842,NHANES source field: see the relevant cycle-specific CDC codebook.
+BPXDI1,float64,694,NHANES source field: see the relevant cycle-specific CDC codebook.
+BPXDI2,float64,660,NHANES source field: see the relevant cycle-specific CDC codebook.
+BPXDI3,float64,733,NHANES source field: see the relevant cycle-specific CDC codebook.
+BPXDI4,float64,10842,NHANES source field: see the relevant cycle-specific CDC codebook.
+ELIGSTAT,int64,0,Public linked mortality eligibility status
+MORTSTAT,float64,16,"2019 linked mortality status, 1 dead, 0 alive; unavailable remains missing"
+PERMTH_INT,float64,16,Mortality follow-up months from interview
+PERMTH_EXM,float64,16,Mortality follow-up months from examination (not current Cox origin)
+education,float64,5,"Education category: 1 below high school, 2 high school/GED, 3 above high school"
+PIR,float64,803,"Poverty-income ratio category: 1 ≤1.3, 2 >1.3–3.5, 3 >3.5"
+smokingnew,float64,770,"Smoking: 0 never, 1 former, 2 current; missing unavailable"
+marital,int64,0,DMDMARTL 5→1; 1/6→2; 2/3/4→3; missing or other→4 (not recorded)
+hypertension_questionnaire,int64,0,BPQ020 or BPQ040A positive→1; otherwise any no→0; otherwise 2 unknown.
+Systolic,float64,61,Mean of available systolic blood pressure readings BPXSY1–BPXSY4.
+Diastolic,float64,61,Mean of available diastolic blood pressure readings BPXDI1–BPXDI4.
+hypertension_measured,int64,0,Systolic ≥140 or diastolic ≥90→1; both lower→0; otherwise 2 unknown.
+hypertension_code,int64,0,Questionnaire or measured positive→1; otherwise either negative→0; otherwise 2 unknown.
+hypertentionnew,float64,1,"Hypertension: 0 no, 1 yes, unknown missing; BPQ and measured BP positives have priority"
+mortality_eligible,bool,0,Eligible with valid mortality status and positive follow-up
+FOLLOWUP_YEARS,float64,16,Follow-up from interview in years (PERMTH_INT / 12)
+age,int64,0,"Age group: 1=18–29, 2=30–39, 3=40–49, 4=50–59"
+Alcoholuse,int64,0,"0 fewer than 12 lifetime drinks by ALQ110; 1 ALQ130=1; 2 valid ALQ130>1; 3 not recorded/unclassifiable, including structural skips"
+diabetesnew,float64,159,"Diabetes: 0 no, 1 yes, unknown missing; diagnosis/medication/HbA1c positive priority"
+activity,float64,43,"Reported leisure activity: 0 no, 1 any; early and later recall periods differ"
+HPVnew,int64,0,"Overall HPV outcome: 1 positive, 0 negative"
+WTfinal,float64,0,Seven-cycle examination weight WTMEC2YR / 7
+RDW,float64,0,Red cell distribution width
+WBC,float64,0,White blood-cell count
+NEUTROPHIL,float64,0,Absolute neutrophil count
+LYMPHOCYTE,float64,0,Absolute lymphocyte count
+MONOCYTE,float64,0,Absolute monocyte count
+PLATELET,float64,0,Platelet count
+ALBUMIN,float64,0,Serum albumin
+NEU_PCT,float64,0,Neutrophil percentage
+design_stratum,str,0,Survey cycle and SDMVSTRA combined to preserve cycle-specific strata
+alcohol_model_reason,str,0,Reason recorded under the earlier drinking-intensity audit; not the current final Alcoholuse reason.
+alcohol_four_reason,str,0,Reason for current four-level Alcoholuse category; see classify() in cohort_rules.py.
+special_130,bool,0,Whether ALQ130 is a cycle-specific refused/dont-know code.
+valid_130,bool,0,Whether ALQ130 is a valid integer within cycle-specific range after special-code exclusion.
+ALQ110_structural_skip,bool,0,ALQ101=1 with ALQ110 missing.
+past_year_no_drink,bool,0,ALQ120Q equals zero.
+label_130_refused,bool,0,ALQ130 refused response under cycle-specific code.
+label_130_unknown,bool,0,ALQ130 dont-know response under cycle-specific code.
