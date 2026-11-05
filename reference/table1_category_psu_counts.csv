@@ -1,0 +1,15 @@
+"variable","category","HPV","n","strata","PSU_pairs"
+"education","3",0,3877,105,214
+"education","3",1,2746,105,214
+"education","1",0,1359,105,210
+"education","1",1,1292,105,210
+"education","2",0,1321,105,210
+"education","2",1,1284,105,211
+"education","Missing",0,3,3,3
+"education","Missing",1,2,2,2
+"hypertentionnew","0",0,5060,105,214
+"hypertentionnew","0",1,4011,105,214
+"hypertentionnew","1",0,1499,105,212
+"hypertentionnew","1",1,1313,105,209
+"hypertentionnew","Missing",0,1,1,1
+"hypertentionnew","Missing",1,0,0,0

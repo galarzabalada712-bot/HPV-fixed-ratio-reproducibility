@@ -1,0 +1,5 @@
+"variable","version","n","excluded","design_df","represented_strata","represented_PSU_pairs","strata_one_PSU","F","numerator_df","denominator_df","p","warnings"
+"education","including_missing",11884,0,109,105,214,0,22.5424331425629,2.80336953060339,305.567278835769,1.42750474173166e-12,"Chi-squared approximation may be incorrect"
+"education","known_only",11879,5,109,105,214,0,28.8771540766095,1.97945799768299,215.760921747446,9.38433332223251e-12,""
+"hypertentionnew","including_missing",11884,0,109,105,214,0,0.359713412973889,1.47186160706728,160.432915170334,0.632669043309701,"Chi-squared approximation may be incorrect"
+"hypertentionnew","known_only",11883,1,109,105,214,0,0.275889420182289,1,109,0.600474997668998,""

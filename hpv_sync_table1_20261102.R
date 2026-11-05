@@ -22,7 +22,10 @@ for(domain in c('candidate_cohort','HPV_model')) {
   values<-as.character(if(v %in% levels0)seq_along(groups[[v]])-1 else seq_along(groups[[v]]))
   z$group<-factor(ifelse(is.na(z[[v]]),'NA',as.character(z[[v]])),levels=c(values,'NA'))
   s$variables$group<-droplevels(z$group)
-  warns<-character();pv<-tryCatch(withCallingHandlers(svychisq(~group+HPVgroup,s,statistic='F')$p.value,
+  # Table 1: education and hypertension tests use known values only; descriptive counts retain missing values.
+  test_design<-if(domain=='candidate_cohort' && v %in% c('education','hypertentionnew')) s[!is.na(z[[v]]),] else s
+  test_design$variables$group<-droplevels(test_design$variables$group)
+  warns<-character();pv<-tryCatch(withCallingHandlers(svychisq(~group+HPVgroup,test_design,statistic='F')$p.value,
     warning=function(w){warns<<-c(warns,conditionMessage(w));invokeRestart('muffleWarning')}),error=function(e){warns<<-c(warns,conditionMessage(e));NA_real_})
   tests[[length(tests)+1]]<-data.frame(domain=domain,variable=v,method='Rao-Scott design-adjusted F',p=as.numeric(pv),warning=paste(warns,collapse=' | '))
   for(j in seq_along(levels(z$group)))for(h in 0:1) {
