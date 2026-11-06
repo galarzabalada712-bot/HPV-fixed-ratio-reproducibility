@@ -7,6 +7,11 @@ base <- file.path(root,"alcohol_missing_reanalysis")
 out <- file.path(root,"marital_all_models_audit")
 dir.create(out,showWarnings=FALSE)
 d <- read.csv(file.path(base,"analysis_input.csv"))
+# Post-hoc amendment: examination is the default; interview is a sensitivity analysis.
+origin<-Sys.getenv('MORTALITY_ORIGIN',unset='exam');stopifnot(origin %in% c('exam','interview'))
+months<-if(origin=='exam') d$PERMTH_EXM else d$PERMTH_INT
+stopifnot(all(is.na(months) | months>0))
+d$FOLLOWUP_YEARS <- months/12
 frame <- read.csv(file.path(base,"survey_design_frame.csv"))
 stopifnot(nrow(d)==11884,!anyDuplicated(d$SEQN),!anyDuplicated(frame$SEQN))
 raw <- d$DMDMARTL
